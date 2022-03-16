@@ -150,3 +150,12 @@ footer {
         width: 7vw;
     }
 }
+
+@media (max-width: 575px) {
+
+    .sub-menu ul,
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

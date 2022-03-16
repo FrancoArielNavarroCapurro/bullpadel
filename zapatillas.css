@@ -107,3 +107,10 @@
         width: 7vw;
     }
 }
+
+@media (max-width: 375px) {
+    .sub-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
