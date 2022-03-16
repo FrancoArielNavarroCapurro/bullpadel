@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body {
+    background-color: rgb(4, 6, 31);
+
+}
+
+.h1 {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(214, 172, 109);
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.accesorios {
+    position: relative;
+    left: 800px;
+    bottom: 80px;
+    list-style: none;
+}
+
+.bolsos {
+    position: relative;
+    left: 1200px;
+    bottom: 100px;
+    list-style: none;
+}
+
+.paletas {
+    position: relative;
+    left: 1400px;
+    bottom: 120px;
+    list-style: none;
+}
+
+.zapatillas {
+    position: relative;
+    left: 1600px;
+    bottom: 139px;
+    list-style: none;
+}
+
+.Registrate {
+    position: relative;
+    left: 1800px;
+    bottom: 155px;
+    list-style: none;
+}
+
+.Ingresar {
+    position: relative;
+    left: 2000px;
+    bottom: 170px;
+    list-style: none;
+}
+
+.twitter {
+    position: relative;
+    left: 1950px;
+}
+
+.instagram {
+    position: relative;
+    left: 1940px;
+}
+
+.whastsapp {
+    position: relative;
+    left: 1930px;
+}
+
+.facebook {
+    position: relative;
+    left: 1920px;
+}
+
+@media screen and (max-width:1080px) {
+    .h1 {
+        margin: 40px 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .ul {
+        margin-bottom: 4vh;
+    }
+
+    footer a img {
+        height: 50px;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .logo img {
+        width: 7vw;
+    }
+}
