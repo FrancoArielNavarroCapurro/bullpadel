@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body {
+    background-color: rgb(4, 6, 31);
+    padding: 40px;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-rows: 264px 1fr 84px;
+    grid-template-rows: auto 100% auto;
+    height: 100vh;
+}

@@ -1,0 +1,15 @@
+//misc
+@import './misc/mixins';
+@import './misc/normalize';
+@import './misc/variables';
+
+//partials
+@import './partials/footer';
+@import './partials/header';
+
+//Views
+@import './views/accesorios';
+@import './views/bolsos';
+@import './views/home';
+@import './views/paletas';
+@import './views/zapatillas';
