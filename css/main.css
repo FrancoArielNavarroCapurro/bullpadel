@@ -70,6 +70,14 @@ body header {
     display: flex;
     flex-direction: column; } }
 
+iframe {
+  width: 80vw;
+  height: 80vh; }
+
+iframe {
+  width: 80vw;
+  height: 80vh; }
+
 body section {
   display: flex;
   flex-direction: column;
@@ -78,3 +86,7 @@ body section {
   body section iframe {
     width: 80vw;
     height: 80vh; }
+
+iframe {
+  width: 80vw;
+  height: 80vh; }
