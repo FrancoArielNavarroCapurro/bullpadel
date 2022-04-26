@@ -37,15 +37,11 @@ header {
     background-color: rgb(214, 172, 109);
     /* padding: 1rem; */
     padding: 3vh 4vw;
-
 }
 
 .ul {
     display: flex;
     justify-content: space-evenly;
-
-
-
 }
 
 .nav ul li {
@@ -120,12 +116,6 @@ footer {
 
 }
 
-/* .imagen-incio {
-
-    width: 100%;
-
-} */
-
 .grid-container {
     display: grid;
     gap: 50px;
@@ -169,12 +159,60 @@ footer {
     .logo img {
         width: 7vw;
     }
+
+    footer a img {
+        height: 40px;
+        width: auto;
+    }
+
+    .twitter>img {
+        height: 33px;
+        width: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+
+    .contenedor-zapatillas>img {
+        height: 30vh;
+        width: 90%;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .imagen-incio {
+        height: auto;
+        width: 120%;
+        margin-top: 2rem;
+    }
+
+    .grid-contenedor {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .contenedor-bolsos>img {
+        height: auto;
+        width: 90%;
+    }
+
+    .contenedor-paletas>img {
+        height: auto;
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px) {
 
-    .sub-menu ul,
-    footer {
+    .sub-menu ul {
         display: flex;
         flex-direction: column;
     }
